@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+:root{
+    --primcol: #3E23FF ;
+    --seccol: #18E480;
+    --textcol: #233D63;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: var(--primcol);
+    height: 50vh;
+}
+nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    text-align: center;
+    align-items: center;
+
+}
+.nav-menu{
+    flex-basis: 80%;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: clamp(0.5rem, 1.0vw, 2.5rem);
+    
+}
+.nav-list>a, nav>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-logo{
+    font-family: 'Poppins', sans-serif ;
+    color: #fff;
+    font-size: clamp(0.7rem, 1.5vw, 4rem);
+}
+
+
+.button{
+    background-color: #18E480;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(0.5rem, 0.9vw, 3rem);
+
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #18E480;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.header-content>h1{
+    color: #fff;
+    font-size: clamp(2rem, 5vw, 10rem);
+}
+.header-content>p{
+    color: #fff;
+    font-size: clamp(1.0rem, 1.3vw, 4rem);
+}
+
+.section1{
+    height: 100vh;
+}
+.Section1-heading{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #222A41;
+}
+.Section1-heading>h3{
+    text-align: center;
+    font-size: clamp(0.9rem, 1.8vw, 4rem);
+    
+}
+.Section1-heading>h1{
+    text-align: center;
+    font-size: clamp(1.2rem, 2.5vw, 5rem);
+
+}
+.section1-info{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    font-size: clamp(1rem, 1.9vw, 3rem);
+}
+.section1-content{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-wrap{
+    text-align: center;
+}
+.material-symbols-outlined{
+    font-size: 120px;
+    position: absolute;
+    top: 30%;
+    left: 39%;
+}
+.svg-cont{
+    position: relative;
+}
