@@ -48,6 +48,12 @@ nav{
     color: #fff;
 }
 
+.nav-list>a:hover{
+    color: #18E480;
+    font-size: clamp(0.9rem, 1.2vw, 2.8rem);
+    transition: ease-in-out 0.5s;
+}
+
 .nav-logo{
     font-family: 'Poppins', sans-serif ;
     color: #fff;
@@ -87,7 +93,8 @@ nav{
 }
 
 .section1{
-    height: 100vh;
+    padding-bottom: 30px;
+    /* height: 100vh; */
 }
 .Section1-heading{
     flex-basis: 20%;
@@ -132,4 +139,169 @@ nav{
 }
 .svg-cont{
     position: relative;
+}
+.content{
+   color: #222A41;
+   font-size: clamp(1.0rem, 1.5vw, 5rem);
+   
+}
+.subcontent{
+    color: #6D7783;
+    font-size: clamp(0.8rem, 1.2vw, 4rem);
+}
+.section2{
+    display: flex;
+    background-color: var(--primcol);
+}
+.section2-wrapper{
+   display: flex;
+   align-items: center;
+   justify-content:center ;
+   width: 100%;
+
+}
+
+.section2-content{
+    line-height: 50px;
+    color:#fff;
+
+}
+.section2-content>h3{
+    font-size: clamp(0.5rem, 1.0vw, 3rem);
+    font-weight: 100
+}
+.section2-content>h2{
+    font-size: clamp(2rem, 2vw, 4rem);
+
+}
+.section2-content>p{
+    font-size: clamp(0.5rem, 0.9vw, 3rem);
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+
+.download-buttons{
+    display:  flex;
+    gap: 30px;
+}
+.section3-subhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+    
+/* .section3-subhead>section3-head>h3>h1>ul>li{
+    list-style-type: none;
+} */
+
+.section3-head{
+    
+    background-color: #fff;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px #00000014;
+    line-height: 30px;
+    padding: 25px;
+    text-align: center;
+
+    
+
+}
+
+.section3-head>h3{
+    font-size: clamp(0.5rem, 0.9vw, 3rem);
+    
+    
+}
+.section3-head>h1{
+    font-size: clamp(0.7rem, 1.1vw, 5rem);
+}
+.section3-head>ul>li{
+    list-style-type: none;
+}
+.section3-two>ul>li{
+    list-style-type: none;
+}
+
+
+.section3-two>h3{
+    font-size: clamp(0.5rem, 0.9vw, 3rem);
+    border-radius: 10%; 
+    
+}
+.section3-two>h1{
+    font-size: clamp(0.7rem, 1.1vw, 5rem);
+}
+.section3-two{
+    background-color: #3E23FF;
+}
+.section3-heading{
+    font-size: clamp(0.5rem, 1.0vw, 3rem);
+    text-align: center;
+    margin-top: 7%;
+}
+.section3-headingg{
+    text-align: center;
+    
+    
+}
+
+.section3-subhead{
+    display: flex;
+    gap: 30px;
+}
+
+.section3-two{
+    
+    background-color: var(--primcol);
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px #00000014;
+    line-height: 30px;
+    padding: 25px;
+    text-align: center;
+}
+.section3-two:hover{
+    color:#fff;
+    transition: ease-in-out 0,5s;
+    font-size: clamp(0.9rem, 1.3vw, 3rem);
+}
+.Choose{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color:  #3E23FF;
+    padding: 10px 15px;
+    color: #fff;
+
+}
+.Plan{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px 15px;
+    color: var(--primcol);
+}
+.section4{
+    text-align: center;
+}
+.footer-div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-div2>h3{
+    font-size: clamp(0.4rem, 1.5vw, 1.2rem);
+}  
+.footer-div3{
+    
+}  
+.footer-div4{
+    text-decoration: none;
+    padding: 20px;
+    
+}
+.list{
+    list-style-type: none;
 }
